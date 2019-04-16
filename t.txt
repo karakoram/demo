@@ -1,56 +1,18 @@
 
-server {
-    listen       80;
-    server_name  localhost;
-
-    #charset koi8-r;
-    #access_log  /var/log/nginx/log/host.access.log  main;
-
-    location / {
-        root   /usr/share/nginx/html;
-        index  index.html index.htm;
-    }
-
-    #error_page  404              /404.html;
-
-    # redirect server error pages to the static page /50x.html
-    #
-    error_page   500 502 503 504  /50x.html;
-    location = /50x.html {
-        root   /usr/share/nginx/html;
-    }
-
-    # proxy the PHP scripts to Apache listening on 127.0.0.1:80
-    #
-    #location ~ \.php$ {
-    #    proxy_pass   http://127.0.0.1;
-    #}
-
-    # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
-    #
-    #location ~ \.php$ {
-    #    root           html;
-    #    fastcgi_pass   127.0.0.1:9000;
-    #    fastcgi_index  index.php;
-    #    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
-    #    include        fastcgi_params;
-    #}
-
-    # deny access to .htaccess files, if Apache's document root
-    # concurs with nginx's one
-    #
-    #location ~ /\.ht {
-    #    deny  all;
-    #}
-}
-
-
-
-
-
-
-
-
-
-
-
+add	Add new packages to the running system
+del	Delete packages from the running system
+fix	Attempt to repair or upgrade an installed package
+update	Update the index of available packages
+info	Prints information about installed or available packages
+search	Search for packages or descriptions with wildcard patterns
+upgrade	Upgrade the currently installed packages
+cache	Maintenance operations for locally cached package repository
+version	Compare version differences between installed and available packages
+index	create a repository index from a list of packages
+fetch	download (but not install) packages
+audit	List changes to the file system from pristine package install state
+verify	Verify a package signature
+dot	Create a graphviz graph description for a given package
+policy	Display the repository that updates a given package, plus repositories that also offer the package
+stats	Display statistics, including number of packages installed and available, number of directories and files, etc.
+manifest	Display checksums for files contained in a given package
