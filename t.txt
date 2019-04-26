@@ -1,5 +1,4 @@
 
-add	Add new packages to the running system
 del	Delete packages from the running system
 fix	Attempt to repair or upgrade an installed package
 update	Update the index of available packages
