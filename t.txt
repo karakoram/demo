@@ -18,4 +18,3 @@ stats	Display statistics, including number of packages installed and available, 
 manifest	Display checksums for files contained in a given package
 
 
-version	Compare version differences between installed and available packages
