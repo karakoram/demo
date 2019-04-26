@@ -16,3 +16,6 @@ dot	Create a graphviz graph description for a given package
 policy	Display the repository that updates a given package, plus repositories that also offer the package
 stats	Display statistics, including number of packages installed and available, number of directories and files, etc.
 manifest	Display checksums for files contained in a given package
+
+
+version	Compare version differences between installed and available packages
