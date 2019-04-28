@@ -13,6 +13,5 @@ audit	List changes to the file system from pristine package install state
 verify	Verify a package signature
 dot	Create a graphviz graph description for a given package
 policy	Display the repository that updates a given package, plus repositories that also offer the package
-stats	Display statistics, including number of packages installed and available, number of directories and files, etc.
 
 
